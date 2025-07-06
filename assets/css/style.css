@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-weight: 100;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-title {
+    color: white;
+    padding: 5px;
+    font-weight: 450;
+}
+
+.header-img {
+    width: 100%;
+    display: inline-block;
+}
+
+.section-page{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-first{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.section-first img{
+    display: inline-block;
+    width: 310px;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.section-first-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*border: red solid 2px;*/
+    width: 400px;
+    font-size: 13px;
+}
+
+.section-first-text p{
+    padding: 10px;
+    font-weight: 200;
+}
+
+.section-second{
+    background-color: #1E1A13;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-second h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.icons-container{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.icon i{
+    width: auto;
+    height: 50px;
+    font-size: 45px;
+}
+
+.icon p{
+    font-weight: 150;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+
+.section-third{
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section-third img{
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    padding: 6px;
+}
+
+.footer
+{
+    background-color: #1E1A13;
+    text-align: center;
+    padding: 30px;
+}
